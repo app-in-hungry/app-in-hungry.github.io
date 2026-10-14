@@ -1,0 +1,7 @@
+{
+ "base": "https://app-in-hungry.github.io",
+ "name": "아침 인사 카드",
+ "naverVerification": "",
+ "googleVerification": "",
+ "appLink": "intoss://morningcard?from=web"
+}
