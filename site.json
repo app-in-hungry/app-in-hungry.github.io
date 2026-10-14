@@ -1,7 +1,9 @@
 {
  "base": "https://app-in-hungry.github.io",
- "name": "아침 인사 카드",
+ "name": "에프티에스(FTS) 미니앱",
+ "headline": "토스에서 바로 쓰는 생활 앱",
+ "description": "에프티에스(FTS)가 만든 토스 미니앱을 모아 두었어요. 앱마다 그림과 도움말이 있어요.",
  "naverVerification": "357ccfe2da343984da216e93c54c6cb62d9b9a15",
  "googleVerification": "",
- "appLink": "intoss://morningcard/home?from=web"
+ "moved": [["^/(p|w|s|img)/", "/morningcard/$1/"]]
 }

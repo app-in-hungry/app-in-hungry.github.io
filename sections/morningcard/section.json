@@ -1,0 +1,7 @@
+{
+ "order": 10,
+ "name": "아침 인사 카드",
+ "label": "☀️ 아침인사 이미지",
+ "tagline": "날마다 새로 그리는 아침인사 이미지예요. 길게 눌러 저장해 카톡으로 보내 보세요.",
+ "appLink": "intoss://morningcard/home?from=web"
+}
