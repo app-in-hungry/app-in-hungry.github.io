@@ -75,7 +75,7 @@ ${nav}</main>${foot}`);
 const verify = `${cfg.naverVerification ? `<meta name="naver-site-verification" content="${esc(cfg.naverVerification)}">` : ''}${cfg.googleVerification ? `<meta name="google-site-verification" content="${esc(cfg.googleVerification)}">` : ''}`;
 const hero = past[0];
 const mini = all.map((c) => [c.iso, c.id, c.title]);
-write('index.html', `${head({ title: `아침인사 이미지 — 오늘 보내기 좋은 좋은 아침 인사 카드 | ${cfg.name}`, desc: '날마다 새로 그리는 아침인사 이미지예요. 요일 · 계절에 맞는 좋은 아침 인사 카드를 길게 눌러 저장해 카톡으로 보내 보세요.', url: `${cfg.base}/`, image: img(hero), extra: verify })}
+write('index.html', `${head({ title: `아침인사 이미지 — 오늘 보내기 좋은 아침 인사 카드 | ${cfg.name}`, desc: '날마다 새로 그리는 아침인사 이미지예요. 요일 · 계절에 맞는 좋은 아침 인사 카드를 길게 눌러 저장해 카톡으로 보내 보세요.', url: `${cfg.base}/`, image: img(hero), extra: verify })}
 <main><h1>오늘의 아침인사 이미지</h1>
 <figure><a id="hero-a" href="${href(hero)}"><img id="hero-img" src="${img(hero)}" alt="${esc(alt(hero))}" width="1080" height="1440"></a></figure>
 <p class="tip">그림을 길게 눌러 저장한 뒤 카톡으로 보내 보세요. 날마다 새 그림이 올라와요.</p>
