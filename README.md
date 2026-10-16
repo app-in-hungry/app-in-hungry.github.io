@@ -24,5 +24,8 @@
 ## 칸
 - `morningcard` 아침 인사 카드 — 네이버 '아침인사 이미지' 실험(카드 10/1~12/31 92장). 그림 · 목록은 `app34-morning-card/tools/shorts/imagecard.mjs` 가 `docs/morningcard/img` · `sections/morningcard/cards.json` 에 넣는다(매달 쇼츠 묶음 때). 첫 공개 판(10/14)의 `/p/` `/w/` `/s/` `/img/` 는 `/morningcard/` 아래로 옮겼다.
 
+## 유튜브 채널
+- `youtube/` 채널 @FTScm 꾸미기 — 배너(`banner.mjs` → `banner.png`) · 채널 설명 · 링크 · 키워드 · 올리는 법(`youtube/README.md`). 채널 이름이 회사 이름이라 다른 앱 영상도 여기로 모은다.
+
 ## 미리보기
 `SITE_TODAY=YYYY-MM-DD SITE_BASE=http://127.0.0.1:8791 node build.mjs` → `docs/` 를 정적 서버로(없는 주소는 404.html) → 보고 나서 SITE_BASE 없이 다시 `node build.mjs`.
